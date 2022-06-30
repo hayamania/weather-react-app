@@ -21,7 +21,7 @@ export default function Weatehr(props) {
           <img src="https://ssl.gstatic.com/onebox/weather/64/sunny.png" />
           <h1 className="temp">{props.temp}</h1>
           <div className="col">
-            <a href="#">°C</a>|<a href="#">°F</a>
+            <a href="/">°C</a>|<a href="/">°F</a>
             <p>Cloudy</p>
           </div>
         </div>
