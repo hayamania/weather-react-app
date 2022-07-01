@@ -1,11 +1,11 @@
 import React from "react";
-import "./Weather.css";
 import Forecast from "./Forecast";
+import "./Weather.css";
 
 export default function Weatehr(props) {
   return (
-    <div className="Weather">
-      <input id="search-input" type="text" placeholder="Type a city.." />
+    <div className="weather">
+      <input id="search-input" type="text" placeholder="Type a city..." />
       <button className="search-button">Search</button>
       <div className="top-row">
         <div className="col">
