@@ -1,4 +1,4 @@
-.weather {
+.Weather {
   max-width: 70%;
   margin: 30px auto;
   background: #fff;
@@ -6,61 +6,61 @@
   padding: 20px;
 }
 
-.weather h1,
-.weather h2,
-.weather p {
+.Weather h1,
+.Weather h2,
+.Weather p {
   text-align: left;
   line-height: 8px;
 }
-.weather h1 {
+.Weather h1 {
   font-size: 50px;
 }
-.weather h2 {
+.Weather h2 {
   font-size: 40px;
 }
 
-.weather p {
+.Weather p {
   color: #8d99ae;
 }
-.weather #search-input {
+.Weather #search-input {
   width: 400px;
   line-height: 1.5;
   border: #4dbfd9 solid 1px;
 }
 
-.weather .search-button {
+.Weather .search-button {
   padding: 5px 10px;
   color: white;
   border: #f1faee solid 1px;
   background-color: #4dbfd9;
 }
 
-.weather .search-button:hover {
+.Weather .search-button:hover {
   background-color: #358698;
   transition: all 200ms ease-in-out;
   cursor: pointer;
 }
 
-.weather .top-row {
+.Weather .top-row {
   margin: 10px 40px;
 }
-.weather .row {
+.Weather .row {
   display: flex;
   justify-content: space-evenly;
 }
-.weather .col {
+.Weather .col {
   max-width: 100%;
   max-height: 100px;
 }
 
-.weather .temp {
+.Weather .temp {
   margin-top: 15px;
   padding: 0 20px;
 }
-.weather .other-info {
+.Weather .other-info {
   margin-top: 0;
 }
-.weather .forecast {
+.Weather .forecast {
   background: #f1faee;
   border-radius: 10px;
 }
