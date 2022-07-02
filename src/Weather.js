@@ -14,6 +14,7 @@ export default function Weatehr(props) {
     windspeed: props.windspeed,
     date: props.date,
     time: props.time,
+    icon: null,
   });
 
   // Save input city name
@@ -32,15 +33,8 @@ export default function Weatehr(props) {
       windspeed: Math.round(response.data.wind.speed),
       date: `${current.getDate()}/${current.getMonth()}`,
       time: `${current.getHours()}:${current.getMinutes()}`,
+      icon: response.data.weather[0].icon,
     });
-    console.log(response.data);
-    console.log(response.data.main.name);
-    console.log(Math.round(response.data.main.temp));
-    console.log(response.data.main.humidity);
-    console.log(response.data.weather[0].description);
-    console.log(response.data.weather[0].icon);
-    console.log(`${current.getDate()}/${current.getMonth()}`);
-    console.log(`${current.getHours()}:${current.getMinutes()}`);
   }
 
   // Acceess to openweather API

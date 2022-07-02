@@ -34,6 +34,13 @@
   border: #f1faee solid 1px;
   background-color: #4dbfd9;
 }
+
+.weather .search-button:hover {
+  background-color: #358698;
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+}
+
 .weather .top-row {
   margin: 10px 40px;
 }
