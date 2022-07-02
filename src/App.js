@@ -8,7 +8,7 @@ function App() {
       <Weatehr
         date="Tuesday"
         time="10:20"
-        city="New York"
+        city="Perth"
         condition="cloudy"
         temp={19}
         humidity={80}
