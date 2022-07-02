@@ -35,6 +35,7 @@ export default function Weatehr(props) {
       time: `${current.getHours()}:${current.getMinutes()}`,
       icon: response.data.weather[0].icon,
     });
+    setLoaded(true);
   }
 
   // Acceess to openweather API

@@ -14,6 +14,17 @@ function App() {
         humidity={80}
         windspeed={10}
       />
+      <footer>
+        <p>
+          This project was coded by Chie and open-sorced on{" "}
+          <a
+            href="https://github.com/hayamania/weather-react-app"
+            target="_blank"
+          >
+            GitHub
+          </a>
+        </p>
+      </footer>
     </div>
   );
 }
