@@ -23,6 +23,11 @@
 .Weather p {
   color: #8d99ae;
 }
+
+.Weather img {
+  max-width: 100px;
+}
+
 .Weather #search-input {
   width: 400px;
   line-height: 1.5;

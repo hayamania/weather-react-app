@@ -1,10 +1,12 @@
 import axios from "axios";
 import Weatehr from "./Weather";
 import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
     <div className="App">
+      {/* <div className="container"> */}
       <Weatehr
         date="Tuesday"
         time="10:20"
@@ -25,6 +27,7 @@ function App() {
           </a>
         </p>
       </footer>
+      {/* </div> */}
     </div>
   );
 }
